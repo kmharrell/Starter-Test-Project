@@ -30,9 +30,10 @@ jobs:
       uses: php-actions/composer@v6
       with:
         php_version: 7.4
-        php_extensions: redis exif
+        php_extensions: redis exif gd
         version: 2
-        args: --prefer-dist --no-progress
+        progress: no
+        args: --prefer-dist
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
