@@ -1,0 +1,9 @@
+name: Add field to user profile
+description: Add field to user profile
+package: Starter Test Modules
+
+type: module
+core: 8.x
+
+version: '8.x-1.5'
+project: 'starter_test_user'
